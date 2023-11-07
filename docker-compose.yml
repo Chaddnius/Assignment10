@@ -13,7 +13,7 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
     logging:
-      driver: json-file
+      driver: gcplogs
       options:
         max-size: 10m
         max-file: "3"
